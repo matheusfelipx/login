@@ -1,0 +1,76 @@
+body{
+    position: fixed;
+    height: 100vh;
+    background-image: url(imgs/fundo2.jpeg);
+}
+
+.container{
+    background-color: transparent;
+    margin-left: 110%;
+    margin-top: 22%;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+}
+#gblur {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+}
+h1{
+    color: white;
+    text-align: center;    
+}
+h2{
+    color: white;
+    padding-top: 15px;
+    padding-left: 22px;
+    font-size: 100%;
+    padding-bottom: 20px;
+}
+p{
+    color: white;
+    padding-left: 22px;
+    font-size: 90%;
+}
+.name{
+    border-radius: 7px;
+    margin-left: 5%;
+    width: 85%;
+    height: 5%;
+}
+.password{
+    border-radius: 7px;
+    margin-left: 5%;
+    width: 85%;
+    height: 5%;
+}
+.esquecido{
+    color: white;
+    text-align: end;
+    padding-right: 40px;
+}
+.entrar{
+    border-radius: 7px;
+    width: 70%;
+    height: 7%;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.volta{
+    border-radius: 7px; 
+    width: 70%;
+    height: 7%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+.git{
+    padding-top: 10px;
+    width: 34px;
+    margin-left: 43%;
+}
+.link{
+    padding-top: 10px;
+    width: 30px; 
+}
